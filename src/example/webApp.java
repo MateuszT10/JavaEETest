@@ -11,7 +11,8 @@ import java.util.Date;
 public class webApp extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
-		throws ServletException,IOException{ 
+		throws ServletException,IOException{    
 		resp.getWriter().println(new Date());
+		resp.getWriter().println("Taki sobie napis ;)");
 	}
 }
