@@ -1,10 +1,14 @@
 <html>
 <head>
 <title> Testowa strona :) </title>
+<link rel="stylesheet" href="main.css">
 <style type="text/css">
-h1 {
-	color: white;
+body {
 	background-color: green;
+}
+.aside{
+	color: orange;
+	background-color: black;
 }
 </style>
 </head>
@@ -13,30 +17,24 @@ h1 {
 <br/>
 <h1 align="center"> Zmiana napisu :D</h1>
 <form>
-   <input type="text" name="username" /><br />
-   <input type="password" name="password" />
+   <input type="text" name="username" autocomplete="on" placeholder="nazwa uzytkownika"/><br />
+   <input type="password" name="password" placeholder="haslo" />
 </form>
 <header>
-<h6> Sialalal </h6>
-<h3> Napis </h3>
+Header
 </header>
 <header>
 <nav>
-   <ul>
-      <li style="color: green; background: yellow;"><a href="#">Home</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">About us</a></li>
+   <ul style="color: yellow; background-color: black;">
+      <li><a href="#">Strona g³ówna</a></li>
+      <li><a href="#">Nastêpna</a></li>
+      <li><a href="#">I nastepna</a></li>
    </ul>
 </nav>
  </header>
- <label>sdsds</label>
+ <label style="color: navy; background-color: blue;">Nastepny header</label>
  <article>
- Tutej mamy jakis tam artykul.Tutej mamy jakis tam artykul
- Tutej mamy jakis tam artykul
- Tutej mamy jakis tam artykul
- Tutej mamy jakis tam artykul
- Tutej mamy jakis tam artykul
-   <aside>
+   <aside class="aside">
       <p> Gifts will be delivered to you within 24 hours </p>
    </aside>
  <section>Kolejna sekcja</section>
